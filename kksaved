@@ -1,0 +1,8 @@
+apt-get update
+
+apt-get install mariadb-server -y
+apt install apache2 -y
+apache2 -v
+apache2 start
+
+service mysql start
